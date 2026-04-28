@@ -1,7 +1,7 @@
 function calculoMedia() {
     var nota1 = parseInt(document.getElementById('notaM1').value)
     var nota2 = parseInt(document.getElementById('notaM2').value)
-    var media = (nota1 + nota2) / 2
+    var media = (nota1 + nota2 + nota2) / 3
 
     document.getElementById('notaFinal').innerText = "Média Final é: " + media
 
